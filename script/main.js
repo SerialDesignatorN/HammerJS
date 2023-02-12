@@ -1,5 +1,5 @@
 const remote = require('@electron/remote');
-const { app, Menu, MenuItem } = remote;
+const { app, Menu, MenuItem, webContents, BrowserWindow } = remote;
 const menu = new Menu();
 menu.append(new MenuItem({
   label: 'File',
@@ -95,11 +95,9 @@ menu.append(new MenuItem({
             submenu: [
                 {
                     label: 'Zoom in',
-                    accelerator: 'CmdOrCtrl+['
                 },
                 {
                     label: 'Zoom out',
-                    accelerator: 'CmdOrCtrl+]'
                 }
             ]
         },
@@ -117,7 +115,12 @@ menu.append(new MenuItem({
             label: 'View help'
         },
         {
-            label: 'Open developer tools'
+            label: 'Open developer tools',
+            accelerator: 'CmdOrCtrl+Shift+I',
+            click: () => {
+              const win = remote.getCurrentWindow()
+              win.openDevTools();
+            }
         },
         {
             label: 'About'
