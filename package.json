@@ -1,0 +1,24 @@
+{
+  "name": "HammerJS",
+  "version": "0.0.1",
+  "description": "Simple 3D editor in Node.js and Electron",
+  "main": "index.js",
+  "author": "zeankun.dev <zeanfender11@gmail.com>",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "electron ."
+  },
+  "private": false,
+  "devDependencies": {
+    "electron": "^23.0.0",
+    "electron-reloader": "^1.2.3"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.9",
+    "@spectrum-css/button": "^9.0.1",
+    "@spectrum-css/icon": "^3.0.32",
+    "@spectrum-css/page": "^5.0.17",
+    "@spectrum-css/vars": "^8.0.3",
+    "loadicons": "^1.0.0"
+  }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="spectrum spectrum--medium spectrum--dark">
+    <head>
+        <title>HammerJS</title>
+        <head>
+            <!-- Include global variables first -->
+            <link rel="stylesheet" href="../node_modules/@spectrum-css/vars/dist/spectrum-global.css">
+
+            <!-- Include only the scales your application needs -->
+            <link rel="stylesheet" href="../node_modules/@spectrum-css/vars/dist/spectrum-medium.css">
+            <link rel="stylesheet" href="../node_modules/@spectrum-css/vars/dist/spectrum-large.css">
+
+            <!-- Include only the colorstops your application needs -->
+            <link rel="stylesheet" href="../node_modules/@spectrum-css/vars/dist/spectrum-light.css">
+            <link rel="stylesheet" href="../node_modules/@spectrum-css/vars/dist/spectrum-dark.css">
+            <link rel="stylesheet" href="../node_modules/@spectrum-css/vars/dist/spectrum-darkest.css">
+
+            <!-- Include tokens -->
+            <link rel="stylesheet" href="../node_modules/@spectrum-css/tokens/dist/index.css">
+
+            <!-- Include index-vars.css for all components you need -->
+            <link rel="stylesheet" href="../node_modules/@spectrum-css/page/dist/index-vars.css">
+            <link rel="stylesheet" href="../node_modules/@spectrum-css/typography/dist/index-vars.css">
+            <link rel="stylesheet" href="../node_modules/@spectrum-css/icon/dist/index-vars.css">
+            <link rel="stylesheet" href="../node_modules/@spectrum-css/button/dist/index-vars.css">
+            <link rel="stylesheet" href="./spectrum/index.css">
+        </head>
+    </head>
+    <body>   
+        <div class="menubar">
+            <button class="spectrum-CloseButton spectrum-CloseButton--sizeM" title="Move object">
+                <img src="../assets/ic_fluent_arrow_move_24_filled.png">
+              </button>
+              <button class="spectrum-CloseButton spectrum-CloseButton--sizeM" title="Rotate object">
+                <img src="../assets/ic_fluent_arrow_rotate_clockwise_24_filled.png">
+              </button>
+              <button class="spectrum-CloseButton spectrum-CloseButton--sizeM" title="Scale object">
+                <img src="../assets/ic_fluent_scale_fill_24_filled.png">
+              </button>
+              <button class="spectrum-CloseButton spectrum-CloseButton--sizeM">
+                <span class="spectrum-Button-label">|</span>
+              </button>
+              <button class="spectrum-CloseButton spectrum-CloseButton--sizeM" title="New cube">
+                <img src="../assets/ic_fluent_cube_24_filled.png">
+              </button>
+              <button class="spectrum-CloseButton spectrum-CloseButton--sizeM" title="New cylinder">
+                <img src="../assets/ic_fluent_database_24_filled.png">
+              </button>
+              <button class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM">
+                <img src="../assets/ic_fluent_play_circle_24_filled.png">
+                &nbsp;
+                <span class="spectrum-Button-label">Run Script</span>
+              </button>
+        </div>
+    </body>
+    <script src="../script/main.js"></script>
+    <script src="../node_modules/loadicons/index.js"></script>
+    <script>
+        loadIcons('node_modules/@spectrum-css/icon/dist/spectrum-css-icons.svg');
+    </script>
+</html>
