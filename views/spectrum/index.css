@@ -3287,3 +3287,12 @@
   .sidebar {
     width: 2%;
   }
+  .central-area .right-area {
+    display: inline-block;
+  }
+  .central-area {
+    width: 25%;
+  }
+  .right-area {
+    width: 25%;
+  }
