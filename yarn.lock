@@ -44,6 +44,11 @@
   dependencies:
     "@spectrum-css/vars" "^8.0.3"
 
+"@spectrum-css/tabs@^3.2.29":
+  version "3.2.29"
+  resolved "https://registry.yarnpkg.com/@spectrum-css/tabs/-/tabs-3.2.29.tgz#b539982b55b72f8f101d5d03e0e69fc45651bc61"
+  integrity sha512-oMVqaSIX/d8dTVsbQKd5Scs4h2/BzjwXT6VPyqyirqdg9z9N12+JC3u0x6HylcOhf2y06qm5LN9VU1VkmCxRtA==
+
 "@spectrum-css/tokens@^7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@spectrum-css/tokens/-/tokens-7.0.0.tgz#895f27ecb2a1a7eeafa95a05fefabd6b9ccae93f"
